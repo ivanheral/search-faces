@@ -1,0 +1,29 @@
+{
+  "name": "Search Faces",
+  "version": "1.0",
+  "description": "Search Faces",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": [
+      "*://*.com/*"
+    ],
+    "js": ["background.js"]
+  }],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon_famous16.png",
+      "32": "images/icon_famous32.png",
+      "48": "images/icon_famous48.png",
+      "128": "images/icon_famous128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon_famous16.png",
+    "32": "images/icon_famous32.png",
+    "48": "images/icon_famous48.png",
+    "128": "images/icon_famous128.png"
+  },
+  "web_accessible_resources": ["images/*"],
+  "manifest_version": 2
+}

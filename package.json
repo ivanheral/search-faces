@@ -1,0 +1,16 @@
+{
+  "name": "search-faces",
+  "version": "1.0.0",
+  "description": "Chrome extension to detect faces with Microsoft Azure Cognitive Services",
+  "main": "background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanheral/search-faces.git"
+  },
+  "author": "ivanheral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanheral/search-faces/issues"
+  },
+  "homepage": "https://github.com/ivanheral/search-faces#readme"
+}
