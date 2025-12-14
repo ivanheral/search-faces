@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <label for="apiKey">Azure API Key:</label>
+  <input type="password" id="apiKey" placeholder="Paste your key here">
+
+  <label for="apiEndpoint">Azure Endpoint URL:</label>
+  <input type="text" id="apiEndpoint" placeholder="https://<name>.cognitiveservices.azure.com/">
+
+  <label for="selectApi">Detection Mode:</label>
+  <select id="selectApi">
+    <option value="faces">Faces</option>
+    <option value="celebrities">Celebrities</option>
+    <option value="nopor">Adult Content</option>
+  </select>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

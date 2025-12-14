@@ -8,7 +8,7 @@
     "url": "git+https://github.com/ivanheral/search-faces.git"
   },
   "author": "ivanheral",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivanheral/search-faces/issues"
   },

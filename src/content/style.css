@@ -1,0 +1,59 @@
+/* Overlay for Adult Content Score */
+.nopor-overlay {
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  color: #00ff41;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 4px;
+  width: auto;
+  height: auto;
+}
+
+/* Face Detection Box */
+.face-box {
+  white-space: nowrap;
+  text-shadow: 1px 1px #000;
+  font-size: 16px;
+  position: absolute;
+  z-index: 9999;
+  outline: 2px dashed #00ff41;
+  color: #00ff41;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Label at bottom? or center? The original code appended text directly */
+  pointer-events: none; /* Let clicks pass through to image or other elements if needed */
+}
+
+/* Floating Analyze Button */
+.info-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2147483647;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-overlay:hover {
+  transform: scale(1.1);
+  background: rgba(0, 255, 65, 0.8);
+  border-color: #fff;
+}
+
+/* Ensure parent of image is relative if static */
+.relative-parent {
+  position: relative !important;
+}
