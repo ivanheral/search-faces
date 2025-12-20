@@ -1,5 +1,10 @@
 # 🔍 Search Faces - Extensión de Chrome con IA
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Chrome](https://img.shields.io/badge/Chrome-Extension-googlechrome.svg)
+
+
 Esta extensión de Chrome permite analizar imágenes en cualquier página web utilizando la **API de Azure Computer Vision**. Con un simple clic, puedes detectar rostros, identificar celebridades o evaluar el contenido de las imágenes directamente desde tu navegador.
 
 ## ✨ Características Principales
@@ -71,3 +76,12 @@ El proyecto está construido utilizando tecnologías web estándar y APIs modern
 2.  **Configuración**: Introduce tu `API Key` y selecciona el modo de detección deseado (Faces, Celebrities, etc.).
 3.  Navega a cualquier página web con imágenes.
 4.  Verás una lupa 🔍 sobre las imágenes. ¡Haz clic para analizar!
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la extensión o encuentras algún error, por favor abre un issue o envía un pull request.
+

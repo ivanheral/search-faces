@@ -1,13 +1,26 @@
 {
   "name": "search-faces",
   "version": "1.0.0",
-  "description": "Chrome extension to detect faces with Microsoft Azure Cognitive Services",
+  "description": "Extensión de Chrome para detectar rostros y analizar imágenes utilizando Azure Cognitive Services (Computer Vision). Detecta edad, emociones y celebridades.",
   "main": "background.js",
+  "keywords": [
+    "chrome-extension",
+    "azure-cognitive-services",
+    "computer-vision",
+    "face-detection",
+    "javascript",
+    "ai",
+    "celebrity-recognition",
+    "image-analysis"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivanheral/search-faces.git"
   },
-  "author": "ivanheral",
+  "author": {
+    "name": "ivanheral",
+    "url": "https://github.com/ivanheral"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivanheral/search-faces/issues"
